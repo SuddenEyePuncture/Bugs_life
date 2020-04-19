@@ -3,7 +3,7 @@
   "id": "mon_aphid",
     "type": "MONSTER",
     "name": { "str": "giant aphid" },
-    "description": "A green aphid the size of a rabbit.  It is constantly searching for plants to suck from.",
+    "description": "A green aphid the size of a rabbit.  It is constantly searching for plants to suck from.  You see a glittery drop of honeydew on its butt.",
     "default_faction": "ant",
     "bodytype": "insect",
     "species": [ "INSECT" ],
@@ -14,7 +14,7 @@
     "material": [ "iflesh" ],
     "symbol": "a",
     "color": "light_green",
-    "morale": 20,
+    "morale": 10,
    "aggression": 1 , "melee_skill": 0,
     "melee_dice": 1,
     "melee_dice_sides": 2,
@@ -28,5 +28,5 @@
    "fear_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "FIRE" ],
     "death_function": [ "NORMAL" ],
     "special_attacks": [ [ "EAT_FOOD", 3 ] ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "PATH_AVOID_FIRE", "PATH_AVOID_FALL" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "PATH_AVOID_FIRE", "PATH_AVOID_FALL", "SWARMS", "CATTLEFODDER", "ARTHROPOD_BLOOD" ]
 , "difficulty": "0"  } ]
