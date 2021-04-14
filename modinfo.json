@@ -4,7 +4,7 @@
     "ident": "Bug's life",
     "name": "Bug's life",
     "authors": [ "SuddenEyePuncture" ],
-    "description": "Add new types of insects, such as aphids, coccinellidaes, etc.",
+    "description": "Add new types of insects, such as aphids, mantises, etc.",
     "category": "creatures",
     "dependencies": [ "dda" ]
   }
