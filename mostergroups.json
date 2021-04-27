@@ -48,7 +48,7 @@
     "default": "mon_null",
     "is_animal": true,
     "monsters": [
-      { "monster": "mon_mole_cricket",, "freq": 60, "cost_multiplier": 3 }
+      { "monster": "mon_mole_cricket", "freq": 60, "cost_multiplier": 3 }
     ]
   }
 ]
