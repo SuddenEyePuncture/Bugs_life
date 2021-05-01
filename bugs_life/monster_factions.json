@@ -20,5 +20,11 @@
     "base_faction": "insect",
     "by_mood": [ "centipede", "spider", "ant", "acid_ant" ],
     "hate": [ "insect", "small_animal" ]
+  },
+    {
+    "type": "MONSTER_FACTION",
+    "name": "strider",
+    "base_faction": "insect",
+	"by_mood": [ "small_animal", "fish", "aquatic_predator"]
   }
   ]

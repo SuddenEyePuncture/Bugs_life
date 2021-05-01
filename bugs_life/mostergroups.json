@@ -51,9 +51,10 @@
     "default": "mon_null",
     "is_animal": true,
     "monsters": [
-	{"monster": "mon_mantis_small", "freq": 2, "cost_multiplier": 10},
+	{"monster": "mon_mantis_small", "freq": 2, "cost_multiplier": 8},
 	{"monster": "mon_aphid", "freq": 10, "cost_multiplier": 0},
-	{ "monster": "mon_antlion_giant", "freq": 4, "cost_multiplier": 15 }
+	{ "monster": "mon_antlion_giant", "freq": 4, "cost_multiplier": 10 },
+	{ "monster": "mon_strider_small", "freq": 15, "cost_multiplier": 3, "pack_size": [ 4, 8 ] }
 	]
 	},
 	  {
@@ -78,5 +79,26 @@
 	{ "monster": "mon_antlion_larva", "freq": 7, "cost_multiplier": 10 },
 	{ "monster": "mon_antlion_giant", "freq": 5, "cost_multiplier": 10 }
 	]
+	},
+	 {
+    "type": "monstergroup",
+    "name": "GROUP_FISH",
+    "default": "mon_fish_whitefish",
+    "is_animal": true,
+    "monsters": [{ "monster": "mon_strider_small", "freq": 35, "cost_multiplier": 3, "pack_size": [ 3, 6 ] }]
+	},
+	  {
+    "type": "monstergroup",
+    "name": "GROUP_RIVER",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [{ "monster": "mon_strider_small", "freq": 15, "cost_multiplier": 3, "pack_size": [ 2, 4 ] }]
+	},
+	  {
+    "type": "monstergroup",
+    "name": "GROUP_POND_FISH",
+    "default": "mon_null",
+    "is_animal": true,
+    "monsters": [{ "monster": "mon_strider_small", "freq": 30, "cost_multiplier": 0, "pack_size": [ 3, 6 ] }]
 	}
 ]
