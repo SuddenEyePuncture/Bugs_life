@@ -32,9 +32,8 @@
     "special_attacks": [ [ "EAT_FOOD", 60 ], [ "EAT_CROP", 80 ] ],
 	"reproduction": { "baby_monster": "mon_aphid", "baby_count": 1, "baby_timer": 20 },
     "baby_flags": [ "SPRING", "SUMMER"],
-    "biosignature": { "biosig_item": "honeydew", "biosig_timer": 25 },
-    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "PATH_AVOID_FIRE", "PATH_AVOID_FALL", "CATTLEFODDER", "PET_WONT_FOLLOW" ],
-	 "//": "пересмотреть рождение детей, высирание говна, поедание еды"
+    "biosignature": { "biosig_item": "honeydew", "biosig_timer": 600 },
+    "flags": [ "SEES", "HEARS", "SMELLS", "CLIMBS", "PATH_AVOID_FIRE", "PATH_AVOID_FALL", "CATTLEFODDER", "PET_WONT_FOLLOW" ]
 	},
   {
     "id": "mon_mantis_small",
@@ -104,7 +103,8 @@
         "damage_max_instance": [ { "damage_type": "stab", "amount": 15, "armor_multiplier": 0.6 } ]
       }
     ],
-    "extend": { "flags": [ "DESTROYS", "PUSH_MON", "PUSH_VEH" ] }
+    "extend": { "flags": [ "DESTROYS", "PUSH_MON", "PUSH_VEH" ] },
+	"delete": { "type": "leap", "cooldown": 8, "max_range": 5, "allow_no_target": false }
   },
  {
     "id": "mon_mole_cricket",
@@ -208,7 +208,7 @@
     "material": [ "iflesh" ],
     "symbol": "g",
     "color": "light_green",
-    "aggression": 1,
+    "aggression": -10,
     "morale": 10,
     "melee_skill": 3,
     "melee_dice": 1,
